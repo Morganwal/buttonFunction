@@ -1,0 +1,66 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+#myButton:hover{
+    color: rgb(80, 255, 144);
+}
+
+#myButton:active{
+    color: greenyellow;
+}
+
+body {
+  color: #41c3e0;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  padding: 50px;
+  box-shadow: 19px 25px 25px -10px rgba(153,153,153,1);
+}
+
+h1 + p {
+  font-size: 1.08em;
+  color: #637a91;
+  margin-top: .5em;
+  margin-bottom: 2.65em;
+  padding-bottom: 1.325em;
+  border-bottom: 1px dotted;
+}
+
+input,
+button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+
+input {
+  border: 1px solid #dcdcdc;
+  margin-bottom: 30px;
+  box-shadow: 19px 25px 25px -10px rgba(153,153,153,1);
+}
+
+div {
+  margin-top: 2.8em;
+  padding: 1.5em 0 .5em;
+  border-top: 1px dotted #637a91;
+}
+
+
+/* Buttons */
+
+button {
+  color: white;
+  background: rgb(61, 199, 245);
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+  box-shadow: 19px 25px 25px -10px rgba(153,153,153,1);
+}
+
+p + button {
+  background: #52bab3;
+}
